@@ -6,13 +6,11 @@ const Layout = () => {
     return (
         <div style={{
             minHeight: '100vh',
-            backgroundColor: '#f9fafb',
-
+            backgroundColor: '#f0f4f8', // Light gray background
         }}>
             <div style={{
-                maxWidth: '80rem',
+                maxWidth: '100vw',
                 margin: '0 auto',
-
                 boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
 
             }}>
