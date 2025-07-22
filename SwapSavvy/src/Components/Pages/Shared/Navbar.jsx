@@ -11,7 +11,7 @@ const Navbar = () => {
                     {/* Mobile dropdown */}
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-amber-50 text-black rounded-box z-1 mt-3 ml-3 w-52 p-2 shadow gap-2 [&_a]:!px-1 [&_a]:!py-2 [&_.active]:text-blue-600 [&_.active]:font-semibold">
+                        className="menu menu-sm dropdown-content bg-amber-50 text-black rounded-box z-1 mt-3 ml-3 w-52 p-2 shadow gap-2 [&_a]:!px-1 [&_a]:!py-2 [&_.active]:text-blue-600 [&_.active]:font-bold">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/explore">Explore Swaps</NavLink></li>
                         <li><NavLink to="/matches">My Matches</NavLink></li>
