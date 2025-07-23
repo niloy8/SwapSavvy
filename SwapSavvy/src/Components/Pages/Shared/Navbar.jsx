@@ -58,10 +58,10 @@ const Navbar = () => {
                 </div>
 
 
-                <NavLink className="btn btn-info !px-3 !py-2">Login</NavLink>
+                <NavLink to="/login" className="btn btn-info !px-3 !py-2">Login</NavLink>
                 <p>or</p>
 
-                <NavLink className="btn btn-info !px-3 !py-2">Signup</NavLink>
+                <NavLink to="/signup" className="btn btn-info !px-3 !py-2">Signup</NavLink>
             </div>
         </div>
     );
