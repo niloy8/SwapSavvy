@@ -27,7 +27,7 @@ const Login = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center p-4">
+        <div className="min-h-screen bg-indigo-200 from-blue-50 via-white to-indigo-50 flex items-center justify-center">
             <div className="max-w-md w-full space-y-8">
                 {/* Header */}
                 <div className="text-center">
@@ -37,8 +37,8 @@ const Login = () => {
                 </div>
 
                 {/* Login Form */}
-                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="bg-white rounded-2xl shadow-xl !p-16 border border-gray-100">
+                    <form onSubmit={handleSubmit} className="!space-y-6">
                         {/* Email Field */}
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
@@ -52,10 +52,10 @@ const Login = () => {
                                     required
                                     value={formData.email}
                                     onChange={handleChange}
-                                    className="input input-bordered w-full pl-12 pr-4 py-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                                    className="input input-bordered w-full  pr-4 py-3 border-gray-300 focus:!border-blue-500 focus:!ring-blue-500 !pl-10"
                                     placeholder="Enter your email"
                                 />
-                                <svg className="h-5 w-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg className="h-5 w-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                                 </svg>
                             </div>
@@ -74,16 +74,16 @@ const Login = () => {
                                     required
                                     value={formData.password}
                                     onChange={handleChange}
-                                    className="input input-bordered w-full pl-12 pr-12 py-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                                    className="input input-bordered w-full  py-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500 !pl-10"
                                     placeholder="Enter your password"
                                 />
-                                <svg className="h-5 w-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg className="h-5 w-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                                 </svg>
                                 <button
                                     type="button"
                                     onClick={() => setShowPassword(!showPassword)}
-                                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                                    className="absolute z-10 right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
                                 >
                                     {showPassword ? (
                                         <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
