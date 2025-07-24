@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 {/* Desktop navigation links */}
-                <ul className="menu menu-horizontal px-1 gap-2 [&_.active]:text-blue-600 [&_.active]:border-b-2 [&_.active]:border-blue-600 [&_.active]:font-semibold">
+                <ul className="menu menu-horizontal px-1 gap-2 [&_.active]:text-blue-600 [&_.active]:border-b-2  [&_.active]:border-t-2 [&_.active]:border-blue-600 [&_.active]:font-semibold   [&_.active]:!pb-1 [&_.active]:!pl-2 [&_.active]:!pr-2 [&_.active]:!pt-1">
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/explore">Explore Swaps</NavLink></li>
                     <li><NavLink to="/matches">My Matches</NavLink></li>
