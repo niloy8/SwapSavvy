@@ -1,13 +1,11 @@
 
-import './App.css'
+
 
 function App() {
-
-
   return (
-    <>
-      <p>Hello World</p>
-    </>
+    <div className="flex min-h-screen items-center justify-center">
+      <button>Hello</button>
+    </div>
   )
 }
 
