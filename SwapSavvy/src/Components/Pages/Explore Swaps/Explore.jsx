@@ -218,7 +218,7 @@ const Explore = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+        <div className="min-h-screen bg-gradient-to-br !text-blue-800 from-slate-50 via-blue-50 to-indigo-100">
             {/* Hero Section */}
             <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 !py-16">
                 <div className="absolute inset-0 bg-black/20"></div>
