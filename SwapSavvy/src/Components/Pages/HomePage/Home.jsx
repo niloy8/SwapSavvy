@@ -103,7 +103,7 @@ const Home = () => {
                             <Link to="/signup" className="btn btn-primary !px-8 !py-4 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 !bg-gradient-to-r !from-blue-600 !to-purple-600 border-0 hover:scale-105">
                                 Join Now
                             </Link>
-                            <Link to="/explore" className="btn !px-8 !py-4 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 !bg-white/20 !text-white !border-white/30 hover:!bg-white hover:!text-purple-600 backdrop-blur-sm">
+                            <Link to="/signup" className="btn !px-8 !py-4 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 !bg-white/20 !text-white !border-white/30 hover:!bg-white hover:!text-purple-600 backdrop-blur-sm">
                                 Explore Skills
                             </Link>
                         </div>
