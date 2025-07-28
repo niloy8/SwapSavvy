@@ -525,7 +525,7 @@ const MyMatch = () => {
                                         </div>
 
                                         {/* Action Buttons */}
-                                        <div className="flex space-x-3">
+                                        <div className="flex !space-x-3">
                                             {match.status === 'pending' && (
                                                 <>
                                                     <button

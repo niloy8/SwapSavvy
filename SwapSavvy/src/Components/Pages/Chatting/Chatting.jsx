@@ -313,7 +313,7 @@ const Chatting = () => {
     };
 
     return (
-        <div className="h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 flex">
+        <div className="h-screen bg-gradient-to-br !text-blue-800 from-slate-50 via-blue-50 to-indigo-100 flex">
             {/* Conversations Sidebar */}
             <div className="w-1/3 bg-white border-r border-gray-200 flex flex-col">
                 {/* Header */}
@@ -518,7 +518,7 @@ const Chatting = () => {
                             {/* Attachments Menu */}
                             {showAttachments && (
                                 <div className="!mb-4 !p-3 bg-gray-50 rounded-xl">
-                                    <div className="flex space-x-4">
+                                    <div className="flex !space-x-4">
                                         <button
                                             onClick={() => fileInputRef.current?.click()}
                                             className="flex items-center space-x-2 !px-3 !py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
@@ -526,14 +526,7 @@ const Chatting = () => {
                                             <span>📎</span>
                                             <span className="text-sm">File</span>
                                         </button>
-                                        <button className="flex items-center space-x-2 !px-3 !py-2 bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors">
-                                            <span>📷</span>
-                                            <span className="text-sm">Photo</span>
-                                        </button>
-                                        <button className="flex items-center space-x-2 !px-3 !py-2 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors">
-                                            <span>🎥</span>
-                                            <span className="text-sm">Video</span>
-                                        </button>
+
                                     </div>
                                 </div>
                             )}
