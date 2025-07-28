@@ -7,6 +7,7 @@ import Signup from "../Authectication/Signup";
 import PostSkill from "../Pages/Post A skill/PostSkill";
 import Explore from "../Pages/Explore Swaps/Explore";
 import MyMatch from "../Pages/Mymatches/MyMatch";
+import Chatting from "../Pages/Chatting/Chatting";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: "/matches",
                 element: <MyMatch></MyMatch>
+            },
+            {
+                path: "/chat",
+                element: <Chatting></Chatting>
             }
         ]
     },
