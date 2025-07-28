@@ -6,6 +6,7 @@ import Login from "../Authectication/Login";
 import Signup from "../Authectication/Signup";
 import PostSkill from "../Pages/Post A skill/PostSkill";
 import Explore from "../Pages/Explore Swaps/Explore";
+import MyMatch from "../Pages/Mymatches/MyMatch";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "/explore",
                 element: <Explore></Explore>
+            },
+            {
+                path: "/matches",
+                element: <MyMatch></MyMatch>
             }
         ]
     },

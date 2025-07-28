@@ -146,7 +146,7 @@ const Explore = () => {
         };
 
         fetchSkillPosts();
-    }, []);
+    }, [mockSkillPosts]);
 
     // Filter and search logic
     useEffect(() => {
